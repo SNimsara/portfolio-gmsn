@@ -1,0 +1,42 @@
+.project{
+    padding: 100px 250px;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pro-img img{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.pro-cart{
+    background-color: #edededb8;
+    height: 370px;
+    width: 250px;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.pro-cart p{
+    color: black;
+    font-size: 12px;
+}
+
+.pro-cart h3{
+    color: black;
+    padding-bottom: 20px;
+}
+
+.pro-img img:hover{
+    transform: scale(1.05);
+}

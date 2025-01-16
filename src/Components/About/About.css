@@ -1,0 +1,47 @@
+.about{
+    padding: 100px 150px;
+}
+
+.about-info{
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+}
+
+.about-pic img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.title{
+    text-align: center;
+    font-weight: 600px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.about-p{
+    font-size: 15px;
+    padding-left: 100px;
+    text-align: justify;
+    padding-top: 15px;
+}
+
+h5{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.about-p ul{
+    margin-left: 15px;
+    padding-bottom: 50px;
+}
+
+.about-p h3{
+    font-size: 15px;
+    padding-bottom: 20px;
+}

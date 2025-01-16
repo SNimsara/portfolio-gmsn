@@ -1,0 +1,59 @@
+.skills{
+    padding: 100px 350px;
+    background-color: black;
+}
+
+.skills .title{
+    color: white;
+}
+
+.skill-secs{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.skill-sec{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.skill-sec span{
+    height: 6px;
+    width: 100%;
+    background-color: #6f6f6f;
+    border-radius: 50px;
+}
+
+.skill-sec hr{
+    outline: none;
+    border: none;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #7269e3;
+    display: flex;
+}
+
+.skill-sec p{
+    min-width: 140px;
+    font-size: 15px;
+    color: white;
+    padding-left: 20px;
+    display: flex;
+}
+
+.logo{
+    color: white;
+}
+
+.logo1{
+    color: black;
+}
+
+.skill-sec:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
