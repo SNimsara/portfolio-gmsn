@@ -29,6 +29,7 @@ const Contact = () => {
 
     if (res.success) {
       alert(res.message);
+      event.target.reset(); // Clear the form
     }
   };
 
