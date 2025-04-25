@@ -45,7 +45,7 @@
 
 .pro-cart{
     background-color: #edededb8;
-    height: 365px;
+    height: 370px;
     width: 250px;
     padding: 7px;
     border-radius: 8px;
@@ -53,7 +53,7 @@
 
 .pro-cart-w{
     background-color: #edededb8;
-    height: 290px;
+    height: 310px;
     width: 280px;
     padding: 7px;
     border-radius: 8px;
@@ -62,6 +62,7 @@
 .pro-cart p{
     color: black;
     font-size: 12px;
+    text-align: justify;
 }
 
 .pro-cart h3{
@@ -73,6 +74,7 @@
     color: black;
     font-size: 12px;
     padding-bottom: 10px;
+    text-align: justify;
 }
 
 .pro-cart-w h3{
@@ -81,6 +83,10 @@
 }
 
 .pro-img img:hover{
+    transform: scale(1.05);
+}
+
+.pro-img-w img:hover{
     transform: scale(1.05);
 }
 

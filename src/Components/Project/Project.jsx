@@ -5,6 +5,7 @@ import proj2 from "../../assets/proj2.png";
 import proj4 from "../../assets/proj4.png";
 import proj3 from "../../assets/proj3.png";
 import proj5 from "../../assets/proj5.png";
+import proj6 from "../../assets/proj6.png";
 
 const Project = () => {
   return (
@@ -20,13 +21,15 @@ const Project = () => {
             href="https://www.figma.com/design/fz5LlaSK0xGRA1GQyymnOc/comics-reading-app?node-id=19-173&t=SRx3x4IGY8il9VPY-0"
           >
             <div className="pro-img-w">
-              <img src={proj5} alt="project 3 img" />
+              <img src={proj5} alt="project 5 img" />
             </div>
           </a>
-          <h3>Web Comics Reading App</h3>
+          <h3>Portfolio Website</h3>
           <p>
-            An engaging web comic reading app UI design for exploring, reading,
-            and saving favorite comics with ease.
+            Built a personal portfolio website using React.js, with a
+            custom-designed UI for an interactive and engaging experience.
+            Showcasing my skills, projects, and achievements, along with easy CV
+            access.
           </p>
           <a
             className="repolink"
@@ -42,13 +45,15 @@ const Project = () => {
             href="https://www.behance.net/gallery/221006465/Jewelry-Shop-Website"
           >
             <div className="pro-img-w">
-              <img src={proj3} alt="project 3 img" />
+              <img src={proj6} alt="project 6 img" />
             </div>
           </a>
           <h3>GLOS Jewelers</h3>
           <p>
-            A modern and elegant UI design for GLOS Jewelers, created to reflect
-            the brand’s luxury and enhance the online shopping experience.
+            Designed and developed a e-commerce frontend for a jewelry shop
+            using React. Built an elegant UI with smooth navigation and
+            interactive product displays. Ensured optimized performance with a
+            well-structured component-based architecture
           </p>
           <a
             className="repolink"
@@ -117,7 +122,7 @@ const Project = () => {
             href="https://www.behance.net/gallery/221006465/Jewelry-Shop-Website"
           >
             <div className="pro-img">
-              <img src={proj3} alt="project 3 img" />
+              <img src={proj3} alt="project 4 img" />
             </div>
           </a>
           <h3>GLOS Jewelers</h3>
