@@ -4,11 +4,64 @@ import proj1 from "../../assets/proj1.png";
 import proj2 from "../../assets/proj2.png";
 import proj4 from "../../assets/proj4.png";
 import proj3 from "../../assets/proj3.png";
+import proj5 from "../../assets/proj5.png";
 
 const Project = () => {
   return (
     <div id="project" className="project">
       <h1 className="title">My Projects</h1>
+      <h3 className="sub-topic">Web Development</h3>
+
+      {/*begining of the web development projects*/}
+      <div className="projects1">
+        <div className="pro-cart-w">
+          <a
+            className="pro-link"
+            href="https://www.figma.com/design/fz5LlaSK0xGRA1GQyymnOc/comics-reading-app?node-id=19-173&t=SRx3x4IGY8il9VPY-0"
+          >
+            <div className="pro-img-w">
+              <img src={proj5} alt="project 3 img" />
+            </div>
+          </a>
+          <h3>Web Comics Reading App</h3>
+          <p>
+            An engaging web comic reading app UI design for exploring, reading,
+            and saving favorite comics with ease.
+          </p>
+          <a
+            className="repolink"
+            href="https://github.com/SNimsara/portfolio-gmsn"
+          >
+            Repositry
+          </a>
+        </div>
+
+        <div className="pro-cart-w">
+          <a
+            className="pro-link"
+            href="https://www.behance.net/gallery/221006465/Jewelry-Shop-Website"
+          >
+            <div className="pro-img-w">
+              <img src={proj3} alt="project 3 img" />
+            </div>
+          </a>
+          <h3>GLOS Jewelers</h3>
+          <p>
+            A modern and elegant UI design for GLOS Jewelers, created to reflect
+            the brand’s luxury and enhance the online shopping experience.
+          </p>
+          <a
+            className="repolink"
+            href="https://github.com/SNimsara/Glos-Website"
+          >
+            Repositry
+          </a>
+        </div>
+      </div>
+      {/*end of the web development projects*/}
+
+      {/*begining of the ui design projects*/}
+      <h3 className="sub-topic">UI Design</h3>
       <div className="projects">
         <div className="pro-cart">
           <a
@@ -74,6 +127,7 @@ const Project = () => {
           </p>
         </div>
       </div>
+      {/*end of the ui design projects*/}
     </div>
   );
 };
