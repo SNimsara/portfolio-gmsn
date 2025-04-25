@@ -10,9 +10,9 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <FontAwesomeIcon icon={faBars} />
+      <FontAwesomeIcon icon={faBars} className="mob-menu-open-i" />
       <ul className="nav-menu">
-        <FontAwesomeIcon icon={faXmark} />
+        <FontAwesomeIcon icon={faXmark} className="mob-menu-close-i" />
         <li>
           <AnchorLink
             className={`anc-link ${menu === "home" ? "active" : ""}`}

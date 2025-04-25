@@ -41,3 +41,42 @@
     color: #7269e3;
     font-weight: bold;
   }
+
+  @media(max-width:768px){
+    .navbar{
+        padding: 10px 20px;
+    }
+
+    .mob-menu-open-i{
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        font-size: 24px;
+        z-index: 3;
+    }
+
+    .mob-menu-close-i{
+        display: block;
+        position: relative;
+        width: 10px;
+    }
+
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px;
+        top: 0;
+        gap: 30px;
+        background-color: rgb(44, 44, 44);
+        width: 100px;
+        height: 230px;
+        z-index: 2;
+        transition: 0.5s;
+    }
+
+    .nav-menu li{
+
+    }
+  }
