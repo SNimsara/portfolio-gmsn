@@ -77,3 +77,29 @@
     border: solid #7269e3;
     transform: scale(1.001);
 }
+
+@media(max-width:768px){
+    .home{
+        display: flex;
+        padding: 50px 30px 60px 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .pro-pic img{
+        display: none;
+    }
+
+    .pro-content p{
+        text-align: justify;
+    }
+
+    .pro-content h1{
+        font-size: 40px;
+    }
+
+    .pro-content h2{
+        font-size: 20px;
+    }
+
+    
+}

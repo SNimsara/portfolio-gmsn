@@ -14,9 +14,7 @@ const Home = () => {
       <div className="pro-content">
         <h4>Hello, i'm</h4>
         <h1>G.M.S. Nimsara</h1>
-        <h2>
-          I'm a <span>Software Engineering Undergraduate</span>
-        </h2>
+        <h2>I'm a Software Engineering Undergraduate</h2>
         <p>
           Hi, I'm G.M.S. Nimsara, a dedicated software engineering undergraduate
           with a strong passion for crafting intuitive and functional digital
