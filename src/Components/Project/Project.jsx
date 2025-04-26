@@ -11,14 +11,14 @@ const Project = () => {
   return (
     <div id="project" className="project">
       <h1 className="title">My Projects</h1>
-      <h3 className="sub-topic">Web Development</h3>
 
       {/*begining of the web development projects*/}
+      <h3 className="sub-topic">Web Development</h3>
       <div className="projects1">
         <div className="pro-cart-w">
           <a
             className="pro-link"
-            href="https://www.figma.com/design/fz5LlaSK0xGRA1GQyymnOc/comics-reading-app?node-id=19-173&t=SRx3x4IGY8il9VPY-0"
+            href="https://github.com/SNimsara/portfolio-gmsn"
           >
             <div className="pro-img-w">
               <img src={proj5} alt="project 5 img" />
@@ -42,7 +42,7 @@ const Project = () => {
         <div className="pro-cart-w">
           <a
             className="pro-link"
-            href="https://www.behance.net/gallery/221006465/Jewelry-Shop-Website"
+            href="https://github.com/SNimsara/Glos-Website"
           >
             <div className="pro-img-w">
               <img src={proj6} alt="project 6 img" />
@@ -67,7 +67,7 @@ const Project = () => {
 
       {/*begining of the ui design projects*/}
       <h3 className="sub-topic">UI Design</h3>
-      <div className="projects">
+      <div className="projects2">
         <div className="pro-cart">
           <a
             className="pro-link"

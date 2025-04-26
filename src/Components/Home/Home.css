@@ -78,7 +78,7 @@
     transform: scale(1.001);
 }
 
-@media(max-width:768px){
+@media(max-width:800px){
     .home{
         display: flex;
         padding: 50px 30px 60px 30px;

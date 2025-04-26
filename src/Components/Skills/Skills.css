@@ -57,3 +57,18 @@
     transform: scale(1.04);
     transition: 0.5s;
 }
+
+@media(max-width:995px){
+    
+    .skills{
+        padding: 50px 40px;
+    }
+
+    .skills h1{
+        font-size: 40px;
+    }
+
+    .skills p{
+        font-size: 13px;
+    }
+}
