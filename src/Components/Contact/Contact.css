@@ -92,3 +92,148 @@
     display: flex;
     gap: 20px;
 }
+
+/*XXL window*/
+@media(max-width:1280px){
+    .contact h1{
+        font-size: 50px;
+    }
+    .contact-right input{
+        width: 430px;
+        height: 28px;
+    }
+    .contact-right textarea{
+        width: 430px;
+    }
+    .contact-left h4{
+        font-size: 20px;
+    }
+    .contact-left p , .contact-right label {
+        font-size: 15px;
+    }
+    .contact-right :placeholder-shown{
+        font-size: 12px;
+    }
+}
+
+/*XL window*/
+@media(max-width:1182px){
+    .contact-right input{
+        width: 400px;
+        height: 28px;
+    }
+    .contact-right textarea{
+        width: 400px;
+    }
+    .contact-left h4{
+        font-size: 19px;
+    }
+    .contact-left p , .contact-right label {
+        font-size: 13px;
+    }
+    .contact-right :placeholder-shown{
+        font-size: 10px;
+    }
+}
+
+/*L1 window*/
+@media(max-width:1107px){  
+    .contact-right input{
+        width: 350px;
+        height: 28px;
+    }
+    .contact-right textarea{
+        width: 350px;
+    }
+}
+
+/*L2 window*/
+@media(max-width:1050px){ 
+    .contact-right input{
+        width: 300px;
+        height: 28px;
+    }
+    .contact-right textarea{
+        width: 300px;
+    }
+}
+
+/*M window*/
+@media(max-width:997px){ 
+    .contact-form{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact-right{
+        padding-top: 120px;
+    }
+    .contact-right input{
+        width: 450px;
+        height: 28px;
+    }
+    .contact-right textarea{
+        width: 450px;
+    }
+    .contact-left h4{
+        font-size: 25px;
+    }
+    .contact-left p , .contact-right label {
+        font-size: 17px;
+    }
+    .contact-right :placeholder-shown{
+        font-size: 12px;
+    }
+    .contact{
+        padding: 100px 70px;
+    }
+}
+
+/*S window*/
+@media(max-width:723px){ 
+    .contact h1{
+        font-size: 35px;
+    }
+    .contact-right input{
+        width: 400px;
+        height: 28px;
+    }
+    .contact-right textarea{
+        width: 400px;
+    }
+    .contact-left h4{
+        font-size: 20px;
+    }
+    .contact-left p , .contact-right label {
+        font-size: 15px;
+    }
+    .contact-right :placeholder-shown{
+        font-size: 10px;
+    }
+}
+
+/*XS window*/
+@media(max-width:500px){
+    .contact{
+        justify-content: center;
+    } 
+    .contact h1{
+        font-size: 30px;
+    }
+    .contact-right input{
+        width: 300px;
+        height: 28px;
+    }
+    .contact-right textarea{
+        width: 300px;
+    }
+    .contact-left h4{
+        font-size: 18px;
+    }
+    .contact-left p , .contact-right label {
+        font-size: 13px;
+    }
+    .contact-right :placeholder-shown{
+        font-size: 9px;
+    }
+}

@@ -106,8 +106,7 @@
 /*XL window*/
 @media(max-width:1280px){
     .project{
-        padding: 50px;
-        margin-bottom: 100px;
+        padding: 100px 50px;
     }
     .pro-cart{
         width: 230px;
