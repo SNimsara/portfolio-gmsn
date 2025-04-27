@@ -46,6 +46,26 @@ h5{
     padding-bottom: 20px;
 }
 
+/*M window*/
+@media(max-width:910px){
+    .about-info{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about h1{
+        font-size: 40px;
+    }
+    .about-p{
+        padding: 50px;
+    }
+
+    .about-pic img{
+        height: 280px;
+        width: 280px;
+    }
+}
+
+/*S window*/
 @media(max-width:768px){
     .about-info{
         flex-direction: column;
@@ -53,12 +73,35 @@ h5{
     .about{
         padding: 50px 59px;
     }
-
     .about h1{
         font-size: 40px;
     }
-
     .about-p{
         padding: 50px 0;
     }
+    .about-pic img{
+        height: 250px;
+        width: 250px;
+    }
 }
+
+/*XS window*/
+@media(max-width:600px){
+    .about-pic img{
+        height: 220px;
+        width: 220px;
+    }
+    .about h1{
+        font-size: 40px;
+    }
+    
+}
+
+@media(max-width:390px){
+    .about-pic img{
+        height: 190px;
+        width: 190px;
+    }
+}
+
+

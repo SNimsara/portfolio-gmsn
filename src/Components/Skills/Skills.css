@@ -41,7 +41,6 @@
     min-width: 140px;
     font-size: 15px;
     color: white;
-    padding-left: 20px;
     display: flex;
 }
 
@@ -58,17 +57,54 @@
     transition: 0.5s;
 }
 
+/*L window*/
+@media(max-width:1280px){
+    
+    .skills{
+        padding: 50px 200px;
+        justify-content: center;
+    }
+    .skill-sec span , .skill-sec hr{
+        height: 5px;
+    }
+    .skills p{
+        font-size: 12px;
+    }
+}
+
+/*M window*/
 @media(max-width:995px){
     
     .skills{
-        padding: 50px 40px;
+        padding: 50px 130px;
+        justify-content: center;
     }
-
     .skills h1{
         font-size: 40px;
     }
-
     .skills p{
-        font-size: 13px;
+        font-size: 10px;
     }
+    .skill-sec span , .skill-sec hr{
+        height: 4px;
+    }
+}
+
+/*S window*/
+@media(max-width:650px){
+    .skills{
+        padding: 50px 50px;
+        justify-content: center;
+    }
+}
+
+/*XS window*/
+@media(max-width:400px){
+    .skill-sec{
+        padding: 50px 60px;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
 }

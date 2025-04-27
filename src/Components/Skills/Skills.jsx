@@ -22,6 +22,7 @@ const Skills = () => {
             <hr style={{ width: "85%" }} />
           </span>
         </div>
+
         <div className="skill-sec">
           <div className="logo">
             <FontAwesomeIcon icon={faCss3Alt} />
@@ -31,6 +32,7 @@ const Skills = () => {
             <hr style={{ width: "80%" }} />
           </span>
         </div>
+
         <div className="skill-sec">
           <div className="logo">
             <FontAwesomeIcon icon={faReact} />
@@ -40,6 +42,7 @@ const Skills = () => {
             <hr style={{ width: "80%" }} />
           </span>
         </div>
+
         <div className="skill-sec">
           <div className="logo">
             <FontAwesomeIcon icon={faJs} />
@@ -49,6 +52,7 @@ const Skills = () => {
             <hr style={{ width: "60%" }} />
           </span>
         </div>
+
         <div className="skill-sec">
           <div className="logo">
             <FontAwesomeIcon icon={faFigma} />
@@ -58,6 +62,7 @@ const Skills = () => {
             <hr style={{ width: "80%" }} />
           </span>
         </div>
+
         <div className="skill-sec">
           <div className="logo1">
             <FontAwesomeIcon icon={faCircle} />

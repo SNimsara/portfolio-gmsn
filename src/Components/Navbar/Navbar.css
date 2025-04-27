@@ -51,15 +51,11 @@
 }
 
   @media(max-width:768px){
-    .navbar{
-        padding: 10px 20px;
-    }
-
+    
     .navmob-menu-open{
         display: block;
         position: sticky;
-        z-index: 3;
-        left: -300px;
+        
     }
 
     .navmob-menu-close{
@@ -69,6 +65,7 @@
     }
 
     .nav-menu{
+        display: none;
         position: fixed;
         flex-direction: column;
         align-items: start;
@@ -76,8 +73,8 @@
         top: 0;
         gap: 30px;
         background-color: rgb(44, 44, 44);
-        width: 350px;
-        height: 230px;
+        width: 430px;
+        height: 100%;
         z-index: 2;
         transition: 0.5s;
         right: -350px;
