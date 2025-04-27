@@ -163,7 +163,6 @@
 @media(max-width:780px){
     .home{
         display: flex;
-        padding: 50px 30px 60px 30px;
         align-items: center;
         justify-content: center;
     }
