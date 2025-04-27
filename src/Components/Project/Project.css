@@ -18,7 +18,7 @@
 }
 
 .projects1 .pro-cart-w{
-    margin: 50px 60px 0 0;
+    margin: 50px 60px 0 60px;
 }
 
 .pro-img img{
@@ -101,101 +101,66 @@
     font-size: 13px;
 }
 
-@media(max-width:768px){
-    .project h1{
-        font-size: 40px;
-    }
-    .project{
-        padding: 50px 60px;
-    }
-    .projects1{
-        flex-direction: column;
-        align-items: center;
-    }
-    .projects2{
-        flex-direction: column;
-        gap: 50px;
-    }
-    .pro-cart{
-        width: 300px;
-        height: 290px;
-    }
-    .pro-img img{
-        width: 300px;
-        height: 300px;
-    }
-    .pro-cart p{
-        font-size: 10px;
-    }
-    .pro-cart h3{
-        font-size: 15px;
-    }
-}
 
-@media(max-width:1285px){
+
+/*XL window*/
+@media(max-width:1280px){
+    .project{
+        padding: 50px;
+        margin-bottom: 100px;
+    }
     .pro-cart{
-        width: 250px;
-        height: 320px;
+        width: 230px;
+        height: 350px;
     }
     .pro-img img{
-        width: 250px;
-        height: 250px;
+        width: 230px;
+        height: 230px;
     }
-    .pro-cart p{
+    .pro-cart , .pro-cart-w p{
         font-size: 11px;
     }
-    .pro-cart h3{
+    .pro-cart , .pro-cart-w h3{
         font-size: 16px;
     }
 }
 
-@media(max-width:1200px){
-    .pro-cart{
+/*L window*/
+@media(max-width:1103px){
+    .projects2{
+        flex-direction: row; /* now cards will go side by side */
+        flex-wrap: wrap;     /* allow next line */
+        justify-content: center; /* center them */
+        gap: 40px;
+    }
+    pro-cart{
         width: 180px;
         height: 290px;
     }
-    .pro-img img{
+    pro-img img{
         width: 180px;
         height: 180px;
     }
-    .pro-cart p{
+    pro-cart p{
         font-size: 10px;
     }
-    .pro-cart h3{
+    pro-cart h3{
         font-size: 15px;
     }
 }
-
-@media(max-width:1000px){
-    .pro-cart{
-        width: 160px;
-        height: 270px;
-    }
-    .pro-img img{
-        width: 160px;
-        height: 160px;
-    }
-    .pro-cart p{
-        font-size: 9px;
-    }
-    .pro-cart h3{
-        font-size: 14px;
+/*M window*/
+@media(max-width:850px){
+    .projects1{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
-@media(max-width:900px) and (min-width:768px){
-    .pro-cart{
-        width: 140px;
-        height: 230px;
-    }
-    .pro-img img{
-        width: 140px;
-        height: 140px;
-    }
-    .pro-cart p{
-        font-size: 8px;
-    }
-    .pro-cart h3{
-        font-size: 13px;
+/*s window*/
+@media(max-width:768px){
+    .project h1{
+        font-size: 40px;
     }
 }
+
