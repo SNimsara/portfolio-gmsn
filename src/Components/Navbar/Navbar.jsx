@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./Navbar.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,11 +8,22 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons/faXmark";
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // state to manage menu visibility
+
+  const handleMenuOpen = () => setIsMenuOpen(true);
+  const handleMenuClose = () => setIsMenuOpen(false);
+
   return (
     <div className="navbar">
-      <FontAwesomeIcon icon={faBars} className="navmob-menu-open" />
-      <ul className="nav-menu">
-        <FontAwesomeIcon icon={faXmark} className="navmob-menu-close" />
+      {!isMenuOpen && (
+        <button className="nav-mob-b" onClick={handleMenuOpen}>
+          <FontAwesomeIcon icon={faBars} className="navmob-menu-open" />
+        </button>
+      )}
+      <ul className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
+        <button className="nav-mob-b" onClick={handleMenuClose}>
+          <FontAwesomeIcon icon={faXmark} className="navmob-menu-close" />
+        </button>
         <li>
           <AnchorLink
             className={`anc-link ${menu === "home" ? "active" : ""}`}
