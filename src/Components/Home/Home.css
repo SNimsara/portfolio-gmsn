@@ -165,6 +165,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 100px 50px;
     }
     .pro-pic img{
         display: none;
@@ -181,5 +182,10 @@
     .pro-content h2{
         font-size: 20px;
     }
-    
+    .icon-link{
+        border: 2px solid white;
+    }
+    .icon-link:hover{
+        border: 2px solid #7269e3;
+    }
 }

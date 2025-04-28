@@ -8,22 +8,17 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons/faXmark";
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
 
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // state to manage menu visibility
-
-  const handleMenuOpen = () => setIsMenuOpen(true);
-  const handleMenuClose = () => setIsMenuOpen(false);
-
   return (
     <div className="navbar">
-      {!isMenuOpen && (
-        <button className="nav-mob-b" onClick={handleMenuOpen}>
-          <FontAwesomeIcon icon={faBars} className="navmob-menu-open" />
-        </button>
-      )}
-      <ul className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
-        <button className="nav-mob-b" onClick={handleMenuClose}>
+      <input type="checkbox" id="nav-active" />
+      <label for="nav-active" className="nav-i-open">
+        <FontAwesomeIcon icon={faBars} className="navmob-menu-open" />
+      </label>
+      <ul className="nav-menu">
+        <label for="nav-active" className="nav-i-close">
           <FontAwesomeIcon icon={faXmark} className="navmob-menu-close" />
-        </button>
+        </label>
+
         <li>
           <AnchorLink
             className={`anc-link ${menu === "home" ? "active" : ""}`}
