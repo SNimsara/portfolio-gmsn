@@ -87,7 +87,7 @@ const Project = () => {
         <div className="pro-cart">
           <a
             className="pro-link"
-            href="https://www.figma.com/design/rOnMuSCNRo7x9Och4meozH/Smoothie-ordering-app?node-id=0-1&p=f&t=tvYAgOijTYbI0LYA-0"
+            href="https://www.behance.net/gallery/224699477/Smoothie-Ordering-App?"
           >
             <div className="pro-img">
               <img src={proj1} alt="project 2 img" />
@@ -103,7 +103,7 @@ const Project = () => {
         <div className="pro-cart">
           <a
             className="pro-link"
-            href="https://www.figma.com/design/fz5LlaSK0xGRA1GQyymnOc/comics-reading-app?node-id=19-173&t=SRx3x4IGY8il9VPY-0"
+            href="https://www.behance.net/gallery/224699891/Web-Comics-Reading-App?"
           >
             <div className="pro-img">
               <img src={proj4} alt="project 3 img" />
